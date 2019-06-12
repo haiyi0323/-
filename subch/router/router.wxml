@@ -46,7 +46,7 @@
   <!-- 评论信息 -->
   <i-panel title="评论(1005)">
     <view style="padding: 15px; ">
-      <view class="jioowew" wx:for="{{plxub}}">
+      <view class="jioowew" wx:for="{{plxub}}" wx:key="id">
         <view class="jiowewwx">
           <!-- 用户头像 -->
           <i-avatar class="jowiew" src="{{item.touimg}}"></i-avatar>

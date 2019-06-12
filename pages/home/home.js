@@ -79,7 +79,6 @@ Page({
    */
   onReady: function () {
     // 发送请求 ，返回数据
-    console.log(this.data.video);
   },
 
   /**
@@ -133,13 +132,13 @@ Page({
   xiangqing(e){
       console.log(e.currentTarget.dataset.id);
       wx.navigateTo({
-        url: `/pages/router/router?id=${e.currentTarget.dataset.id}`,
+        url: `/subch/router/router?id=${e.currentTarget.dataset.id}`,
     })
       
   },
   guanliye(){
     wx.navigateTo({
-      url: `/pages/admin/index/index`,
+      url: `/subch/admin/index/index`,
   })
   }
 

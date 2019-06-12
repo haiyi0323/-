@@ -66,7 +66,7 @@ Page({
   
   chuzhao(){
     wx.navigateTo({
-      url: `/pages/admin/chuzhao/chuzhao`,
+      url: `/subch/admin/chuzhao/chuzhao`,
       success: (result)=>{
         
       },
@@ -76,7 +76,7 @@ Page({
   },
   gonggao(){
     wx.navigateTo({
-      url: `/pages/admin/gonggao/gonggao`,
+      url: `/subch/admin/gonggao/gonggao`,
       success: (result)=>{
         
       },
@@ -87,7 +87,7 @@ Page({
   ,
   zhoubian(){
     wx.navigateTo({
-      url: `/pages/admin/zhoubian/zhobian`,
+      url: `/subch/admin/zhoubian/zhobian`,
       success: (result)=>{
         
       },
@@ -97,7 +97,7 @@ Page({
   },
   hezuo(){
     wx.navigateTo({
-      url: `/pages/admin/hezuo/hezuo`,
+      url: `/subch/admin/hezuo/hezuo`,
       success: (result)=>{
         
       },
@@ -107,7 +107,7 @@ Page({
   },
   kedaibiao(){
     wx.navigateTo({
-      url: `/pages/admin/kedaibiao/kedaibiao`,
+      url: `/subch/admin/kedaibiao/kedaibiao`,
       success: (result)=>{
         
       },
@@ -117,7 +117,7 @@ Page({
   },
   fenlei(){
     wx.navigateTo({
-      url: `/pages/admin/fenlei/fenlei`,
+      url: `/subch/admin/fenlei/fenlei`,
       success: (result)=>{
         
       },
@@ -127,7 +127,7 @@ Page({
   },
   lunbo(){
     wx.navigateTo({
-      url: `/pages/admin/lunbo/lunbo`,
+      url: `/subch/admin/lunbo/lunbo`,
       success: (result)=>{
         
       },
@@ -137,7 +137,7 @@ Page({
   },
   yonghu(){
     wx.navigateTo({
-      url: `/pages/admin/yonghu/yonghu`,
+      url: `/subch/admin/yonghu/yonghu`,
       success: (result)=>{
         
       },

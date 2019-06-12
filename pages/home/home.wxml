@@ -12,7 +12,7 @@
 <view class="body" hover-class="none" hover-stop-propagation="false">
     <!-- 轮播图 -->
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" indicator-color="{{color}}" indicator-active-color="{{hovercolor}}" interval="{{interval}}" duration="{{duration}}">
-        <block wx:for="{{imgUrls}}">
+        <block wx:for="{{imgUrls}}" wx:key="* this">
             <swiper-item>
                 <image class="jiios" src="{{item}}" mode="widthFix" />
             </swiper-item>
@@ -22,7 +22,7 @@
 
     <!-- 用户视频 -->
     <view class="flex">
-        <i-card wx:for="{{video}}" bind:tap="xiangqing" data-id="{{item.id}}" extra="{{item.title}}" class="items" i-class="fjiwo" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <i-card wx:for="{{video}}" wx:key="id" bind:tap="xiangqing" data-id="{{item.id}}" extra="{{item.title}}" class="items" i-class="fjiwo" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
 
 
 

@@ -185,7 +185,7 @@ Page({
          });
 
        
-
+        
 
           that.setData({
             plb : result.data.data,
@@ -209,6 +209,7 @@ Page({
           })
           
         },1000);
+   
       }
     });
    
