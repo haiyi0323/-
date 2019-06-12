@@ -1,0 +1,10 @@
+<!--pages/admin/hezuo/hezuo.wxml-->
+<i-panel title="待确认">
+    <view style="padding: 15px;"></view>
+</i-panel>
+<i-panel title="已确认">
+    <view style="padding: 15px;"></view>
+</i-panel>
+<i-panel title="已驳回">
+    <view style="padding: 15px;"></view>
+</i-panel>

@@ -1,0 +1,8 @@
+<!--pages/compontent/tab3/tab3.wxml-->
+<view class="dsfs" >
+    <view class="fdsffd" wx:for="{{shoucangb}}">
+            <image class="ijids" src="{{item.homeimage}}" mode="widthFix"  > </image>
+            <text class="ijios" >{{item.title}}</text>
+    </view>
+    
+</view>

@@ -1,0 +1,74 @@
+<view class="jioidsf">
+    
+</view>
+
+<i-grid>
+    <i-grid-item bind:tap="gonggao">
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/gonggao.png" />
+        </i-grid-icon>
+        <i-grid-label>公告管理</i-grid-label>
+    </i-grid-item>
+     <i-grid-item bind:tap="zhoubian">
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/zhoubian.png" />
+        </i-grid-icon>
+        <i-grid-label>周边管理</i-grid-label>
+    </i-grid-item>
+     
+     <i-grid-item bind:tap="chuzhao">
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/huaban.png" />
+        </i-grid-icon>
+        <i-grid-label>出招表管理</i-grid-label>
+    </i-grid-item>
+  
+</i-grid>
+<i-grid>
+<i-grid-item bind:tap="hezuo">
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/huabanfuben.png" />
+        </i-grid-icon>
+        <i-grid-label>合作管理</i-grid-label>
+    </i-grid-item>
+     <i-grid-item bind:tap="yonghu">
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/yonghu.png" />
+        </i-grid-icon>
+        <i-grid-label>用户管理</i-grid-label>
+    </i-grid-item>
+    
+
+  
+    
+   <i-grid-item bind:tap="kedaibiao">
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/drxx24.png" />
+        </i-grid-icon>
+        <i-grid-label>课代表管理</i-grid-label>
+    </i-grid-item>
+</i-grid>
+
+<i-grid>
+
+     <i-grid-item bind:tap="fenlei">
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/fenlei.png" />
+        </i-grid-icon>
+        <i-grid-label>分类管理</i-grid-label>
+    </i-grid-item>
+    <i-grid-item bind:tap="lunbo">
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/lunbo.png" />
+        </i-grid-icon>
+        <i-grid-label>轮播管理</i-grid-label>
+    </i-grid-item>
+     
+    <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/huodong.png" />
+        </i-grid-icon>
+        <i-grid-label>活动管理</i-grid-label>
+    </i-grid-item>
+   
+</i-grid>

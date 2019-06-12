@@ -1,0 +1,102 @@
+#myVideo{
+    /* width: 100vw;
+    height: 35vh; */
+    vertical-align: top;
+}
+.djsfi{
+    width: 100vw;
+    vertical-align: top;
+}
+.dfsdfs{
+    padding: 10px 10px 0px;
+
+}
+.sdfsd{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px
+}
+.djfioiw{
+    display: inline-block;
+}
+.dsfrw{
+    font-size: 14px;
+    color: gray;
+    vertical-align: bottom;
+    
+}
+.djfioiw{
+   margin-left: 10px;
+}
+.fsdfsf{
+    vertical-align: bottom;
+    margin: 0px 2px;
+}
+.fsfrgrw{
+    margin: 0px 10px;
+    display: inline-block;
+}
+.dsfjoo{
+    font-size: 14px;
+    padding: 5px 10px;
+
+}
+.dsfsde{
+    width: 200px;
+}
+.saadqwwq{
+    border: none !important;
+    padding: 0px !important;
+
+}
+.jiwoewe{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 1px 1px 1px black;
+    background: white;
+
+}
+.joowew{
+    display: inline-block;
+    width: 82%;
+}
+.sdfwe{
+    display: inline-block;
+    width: 10% !important;
+
+
+}
+.jdioow{
+  
+    height: 40px !important;
+    margin: 0px !important;
+}
+.jowsdf , .doooow ,.jowiew{
+    display: inline-block;
+}
+.jowsdf{
+    float: right;
+    line-height: 20px;
+    height: 20px;
+    font-size: 14px;
+    color: gray;
+}
+.doooow{
+    margin-left: 10px;
+    line-height: 20px;
+    height: 20px;
+}
+.oowesd{
+    margin: 10px ;
+    font-size: 16px;
+}
+.jioowew{
+    margin: 20px 0px;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+.owioejo{
+    margin-left: 5px;
+}

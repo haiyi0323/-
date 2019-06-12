@@ -1,0 +1,13 @@
+/* pages/admin/lunbo/lunbo.wxss */
+.jfiowj{
+    width: 100% !important;
+    height: 100% !important;
+    line-height: 150px !important;
+}
+.ijjiew{
+    padding: 10px;
+}
+.fsfrweg{
+    padding: 0px 10px !important;
+    box-sizing: border-box;
+}

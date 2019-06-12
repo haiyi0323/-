@@ -1,0 +1,22 @@
+/* pages/admin/chuzhao/chuzhao.wxss */
+.jiwew{
+    font-size: 22px;
+    font-weight: bold;
+}
+.sfsasa{
+    text-align: center;
+}
+.ijoiwe{
+    width: 200px !important;
+    height: 120px !important;
+    line-height: 120px !important;
+    margin: 20px auto !important
+}
+.jiojiwe{
+    height: 68px !important;
+}
+.jijiwe{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

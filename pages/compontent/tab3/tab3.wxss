@@ -1,0 +1,17 @@
+/* pages/compontent/tab3/tab3.wxss */
+.fdsffd{
+    width: 50%;
+    font-size: 0px;
+    height: 150px;
+    display: inline-block;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.ijids{
+    width: 100%;
+    vertical-align: top
+}
+.ijios{
+    font-size: 18px;
+}
+.dsfs{}

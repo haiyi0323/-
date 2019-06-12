@@ -1,0 +1,4 @@
+<i-tabs current="{{ current_scroll }}" scroll bindchange="handleChangeScroll" color="#fa452d">
+    <i-tab wx:for="{{flarr}}" key="{{item.tab}}" title="{{item.name}}"></i-tab>
+    
+</i-tabs>

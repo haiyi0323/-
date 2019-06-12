@@ -1,0 +1,7 @@
+<i-panel title="发布公告">
+    <i-input value="{{ value1 }}" title="作者" autofocus placeholder="名字" />
+    <i-input value="{{ value2 }}"  title="标题" placeholder="请输入手机号" />
+    <i-input value="{{ value3 }}" type="textarea" title="内容" placeholder="请输入内容(最多500字)" maxlength="500" />
+ 
+</i-panel>
+<i-button bind:click="handleClick" class="jijwe" type="error" long="true">发布公告</i-button>

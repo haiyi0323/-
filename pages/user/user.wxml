@@ -1,0 +1,63 @@
+<view class="content" style="background:#fa452d" >
+    <i-avatar shape="circle" wx:if="{{jioswe}}" i-class="headimg" >
+     <open-data type="userAvatarUrl" ></open-data>
+    </i-avatar>
+        <view class="ffewewe" wx:if="{{jioswe}}">
+         <open-data  type="userNickName"></open-data>
+        </view>
+
+
+         <button wx:if="{{canIUse}}" class="iiwjjo" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+
+        
+            <!-- 滑手资历 -->
+        <view class="feiiww" >
+
+            <view class="fdsfsdf">
+                滑手评价
+            </view>
+            <view class="fsdffs" >
+                <image class="ddfds" src="../../assit/img/hb.png" mode="widthFix" ></image> 
+            </view>
+
+            <view class="xiaokuang">
+                <view class="fdsfsd" >
+                    人品评分
+                </view>
+                <i-rate class="renpin" count="5"  disabled value="5"></i-rate>
+            </view>
+            
+            <view class="xiaokuang" >
+                <view class="fdsfsd" >
+                    能力评分
+                </view>
+                <i-rate class="renpin" count="5" shape="square" type="info" disabled value="5"></i-rate>
+            </view>
+            
+        </view>
+
+
+      <!-- <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button> -->
+
+
+    <!-- 名片 -->
+        <view class="joiewf" bind:tap="mingpian">
+            
+        <i-button  class="sdfdsq" i-class="joijwe">
+             <i-icon class="jiojoiwe" type="addressbook" size="22"/>
+        名片</i-button>
+        </view>
+    
+<!-- 标签栏 -->
+
+<i-tabs current="{{ current }}" bindchange="handleChange"  color="#fa452d">
+    <i-tab key="tab1" title="发布"></i-tab>
+    <i-tab key="tab2" title="出招表"></i-tab>
+    <i-tab key="tab3" title="收藏"></i-tab>
+</i-tabs>
+
+       <tab1 wx:if="{{current == 'tab1'}}"></tab1>
+        <tab2 wx:if="{{current == 'tab2'}}"></tab2>
+        <tab3 shoucangb="{{scb}}" wx:if="{{current == 'tab3'}}"></tab3>
+       
+</view>

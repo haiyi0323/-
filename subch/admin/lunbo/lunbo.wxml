@@ -1,0 +1,66 @@
+<!--pages/admin/lunbo/lunbo.wxml-->
+<i-panel title="首页轮播">
+    <view class="ijjiew" >
+     <swiper indicator-dots="true"  indicator-color="yellow" indicator-active-color="white" circular="true" >
+        <block >
+            <swiper-item class="fsfrweg">
+              <i-avatar src="" i-class="jfiowj"> +</i-avatar>
+            </swiper-item>
+        </block>
+        <block >
+            <swiper-item class="fsfrweg">
+              <i-avatar src="" i-class="jfiowj"> +</i-avatar>
+            </swiper-item>
+        </block>
+        <block >
+            <swiper-item class="fsfrweg">
+              <i-avatar src="" i-class="jfiowj"> +</i-avatar>
+            </swiper-item>
+        </block>
+        <block >
+            <swiper-item class="fsfrweg">
+              <i-avatar src="" i-class="jfiowj"> +</i-avatar>
+            </swiper-item>
+        </block>
+        <block >
+            <swiper-item class="fsfrweg">
+              <i-avatar src="" i-class="jfiowj"> +</i-avatar>
+            </swiper-item>
+        </block>
+    </swiper>
+    </view>
+
+</i-panel>
+
+<i-panel title="活动轮播">
+    <view class="ijjiew" >
+     <swiper indicator-dots="true"  indicator-color="yellow" indicator-active-color="white" circular="true" >
+        <block >
+            <swiper-item class="fsfrweg">
+              <i-avatar src="" i-class="jfiowj"> +</i-avatar>
+            </swiper-item>
+        </block>
+        <block >
+            <swiper-item class="fsfrweg">
+              <i-avatar src="" i-class="jfiowj"> +</i-avatar>
+            </swiper-item>
+        </block>
+        <block >
+            <swiper-item class="fsfrweg">
+              <i-avatar src="" i-class="jfiowj"> +</i-avatar>
+            </swiper-item>
+        </block>
+        <block >
+            <swiper-item class="fsfrweg">
+              <i-avatar src="" i-class="jfiowj"> +</i-avatar>
+            </swiper-item>
+        </block>
+        <block >
+            <swiper-item class="fsfrweg">
+              <i-avatar src="" i-class="jfiowj"> +</i-avatar>
+            </swiper-item>
+        </block>
+    </swiper>
+    </view>
+
+</i-panel>

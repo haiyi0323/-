@@ -1,0 +1,7 @@
+/* pages/compontent/tab1/tab1.wxss */
+.ggfdgf{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}

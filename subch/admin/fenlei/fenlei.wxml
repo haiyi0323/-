@@ -1,0 +1,10 @@
+<!--pages/admin/fenlei/fenlei.wxml-->
+
+<i-cell-group>
+    <i-cell title="只显示箭头" is-link></i-cell>
+    <i-cell title="只显示箭头" is-link></i-cell>
+     <i-cell title="只显示箭头" is-link></i-cell>
+</i-cell-group>
+
+  <!-- 上传按钮 -->
+<i-button bind:click="handleClick" class="jijiwe" type="error" long="true">添加分类</i-button>

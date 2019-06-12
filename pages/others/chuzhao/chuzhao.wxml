@@ -1,0 +1,5 @@
+<!--pages/others/chuzhao/chuzhao.wxml-->
+<i-cell-group>
+    <i-cell wx:for="{{arr}}" title="{{item.name}}" is-link data-id="{{item.id}}" bind:tap="chuzhaoa" ></i-cell>
+    
+</i-cell-group>

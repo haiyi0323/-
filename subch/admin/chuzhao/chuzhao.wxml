@@ -1,0 +1,24 @@
+<i-panel class="jiwew" title="招式名称">
+    <i-input value="{{ title }}" placeholder="请输入标题" maxlength="500" bind:change="title"/>
+</i-panel>
+<i-panel class="jiwew"  title="详细介绍">
+  <i-input value="{{ content }}" type="textarea" i-class="jiojiwe" placeholder="详细介绍" maxlength="500" bind:change="content"/>
+</i-panel>
+<i-panel class="jiwew"  title="难度">
+<i-cell-group>
+       <i-cell >
+        <i-rate 
+            bind:change="onChange2" 
+            value="{{starIndex2}}" size="32">
+            {{starIndex2}}星
+        </i-rate>
+    </i-cell>
+    </i-cell-group>
+</i-panel>
+
+<i-panel class="jiwew sfsasa"  title="配图">
+    <i-avatar i-class="ijoiwe" src="{{gif}}" bind:tap="gif"> +</i-avatar>
+
+</i-panel>
+  <!-- 上传按钮 -->
+<i-button bind:click="handleClick" class="jijiwe" type="error" long="true">添加招式</i-button>

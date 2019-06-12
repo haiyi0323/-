@@ -1,0 +1,49 @@
+<!--pages/others/mingpian/mingpian.wxml-->
+    <view class="jiweoji">
+        <!-- 头部 -->
+    <view class="jiweiw"  bind:tap="bianji">
+     <i-avatar shape="circle" i-class="headimg" >
+     <open-data type="userAvatarUrl" ></open-data>
+    </i-avatar>
+        <view class="fjdsiwe">
+         <open-data class="joiwewef" type="userNickName"></open-data>
+      <open-data class="joiwewef asdas" type="userGender" lang="zh_CN"></open-data>
+    </view>
+        <!-- 评分信息 -->
+        <view class="jiwjieow">
+            <view class="dfsdf" >
+                魅力值
+            </view>
+        <i-rate 
+            disabled="{{true}}"
+            value="{{starIndex4}}">
+            {{starIndex4}}星
+        </i-rate>
+        </view>
+     
+         
+        </view>
+             <!--图片信息  -->
+            <view class="sdfsfwe">
+                <swiper indicator-dots="{{true}}" indicator-color="#fa452d"
+                indicator-active-color="#FFFF33"
+   circular="true" class="ijfoiwe">
+  <block wx:for="{{imgurl}}">
+    <swiper-item>
+      <image src="{{item}}" mode="aspectFill" class="slide-image" bindtap='previewImg' />
+    </swiper-item>
+  </block>
+</swiper>
+            </view>
+    </view>
+
+    <!-- 设置按钮 和装扮按钮 -->
+    <view class="jiwoeeqq">
+        <i-button class="joijoiwe" bind:tap="bianji" shape="circle" type="primary" inline>
+          <i-icon type="activity" size="28" color="#fff" />
+            
+            编辑</i-button>
+        <i-button class="joijoiwe2"shape="circle" type="error" inline>
+          <i-icon type="emoji" size="28" color="#fff" />
+            装扮</i-button>
+    </view>

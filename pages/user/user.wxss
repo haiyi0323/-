@@ -1,0 +1,94 @@
+.content{
+    width: 100%;
+    height: 400rpx;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.headimg{
+    margin: 0px auto !important;
+    width: 120rpx !important;
+    height: 120rpx !important;
+    border-radius: 50% !important;
+    display: block !important;
+
+
+}
+
+.ffewewe{
+    margin: 20rpx auto !important;
+    display: block;
+    text-align: center;
+    color: white;
+}
+.feiiww{
+    width: 100%;
+    height: 150rpx;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.fsdffs{
+    width: 18%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.ddfds{
+    width: 100%;
+}
+.fdsfsdf{
+    width: 10%;
+    font-size: 14px;
+    color: gold;
+    position: absolute;
+    font-weight: bold;
+    left: 60px;
+    bottom:8px;
+   
+
+}
+.renpin{
+    display: inline-block;
+
+}
+.xiaokuang{
+    vertical-align: bottom;
+    display: inline-block;
+    margin-left: 40px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.fdsfsd{
+    margin-left: 5px;
+}
+.joiewf{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    vertical-align:middle;
+
+
+}
+.joijwe{
+    height: 35px !important;
+    line-height: 35px !important;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0px !important;
+   
+}
+.jiojoiwe{
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+.fefweer{
+    margin-top: 30px !important;
+}
+.iiwjjo{
+    width: 40%;
+    margin: 27px auto
+}

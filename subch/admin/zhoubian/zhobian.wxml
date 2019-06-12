@@ -1,0 +1,14 @@
+<i-panel class="jiwew" title="产品标题">
+    <i-input value="{{ title }}" placeholder="请输入标题" maxlength="500"/>
+</i-panel>
+
+<i-panel class="jiwew"  title="复制文本">
+  <i-input value="{{ title }}" type="textarea" i-class="jiojiwe" placeholder="将复制文本复制到此处" maxlength="500"/>
+</i-panel>
+
+<i-panel class="jiwew sfsasa"  title="配图">
+    <i-avatar i-class="ijoiwe" src="{{gif}}" > +</i-avatar>
+
+</i-panel>
+  <!-- 上传按钮 -->
+<i-button bind:click="handleClick" class="jijiwe" type="error" long="true">上传</i-button>

@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "i-avatar": "../../dist/avatar/index",
+    "i-rate": "../../dist/rate/index",
+    "i-button": "../../dist/button/index",
+    "i-icon": "../../dist/icon/index",
+    "i-tabs": "../../dist/tabs/index",
+    "i-tab": "../../dist/tab/index",
+    "tab1":"../compontent/tab1/tab1",
+    "tab2":"../compontent/tab2/tab2",
+    "tab3":"../compontent/tab3/tab3"
+  }
+}

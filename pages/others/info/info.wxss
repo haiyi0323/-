@@ -1,0 +1,21 @@
+/* pages/others/info/info.wxss */
+.jiowoie{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.col-class{
+    text-align: center;
+
+    
+ 
+}
+.fwefwe{
+    margin: 20px auto !important;
+}
+
+.fdsfds{
+    width: 80px !important;
+    height: 80px !important;
+    line-height: 80px !important;
+}

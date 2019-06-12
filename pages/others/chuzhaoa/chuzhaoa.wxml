@@ -1,0 +1,18 @@
+<!--pages/others/chuzhaoa/chuzhaoa.wxml-->
+<i-panel title="{{shuju.name}}">
+    <view style="padding: 15px;">
+        <image class="dsf" src="{{shuju.gif}}" mode="widthFix" lazy-load="false" ></image>
+        <view class="fdsfsd" >
+            {{shuju.content}}
+        </view>
+
+
+         <i-rate 
+            disabled="true"
+            value="{{shuju.nandu}}">
+          难度：  {{shuju.nandu}}星
+        </i-rate>
+    </view>
+
+    
+</i-panel>

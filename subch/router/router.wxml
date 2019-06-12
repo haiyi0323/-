@@ -1,0 +1,69 @@
+<video style="width:{{imageWidth}}px;height:{{imageheight}}px" id="myVideo" src="{{videourl}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+<view class="djsfi" style="height:{{shengyu}}px">
+  <!-- 视频信息 -->
+  <view class="dfsdfs">
+    <view class="jidowe">
+      <i-avatar src="{{toux}}" size="large"></i-avatar>
+      <text class="owioejo">{{zuozhen}}</text>
+      <view class="djfioiw">
+        <view class="fsfrgrw">
+          <i-icon type="live" size="28" color="#80848f" />
+          <text class="dsfrw">{{videoinfo.bofangliang}}次观看</text>
+        </view>
+        <view class="fsfrgrw">
+          <i-icon type="barrage" size="28" color="#80848f" />
+          <text class="dsfrw">0条弹幕</text>
+        </view>
+      </view>
+    </view>
+    <view class="sdfsd">{{videoinfo.videotitle}}</view>
+  </view>
+  <view class="fsfrgrw">
+    <i-icon wx:if="{{!like}}" class="fsdfsf" type="like" size="24" color="#80848f" bind:tap="touchlk"/>
+    <i-icon wx:if="{{like}}" class="fsdfsf" type="like_fill" size="24" color="#fa452d"
+    bind:tap="touchlk"/>
+  </view>
+  <view class="fsfrgrw">
+    <i-icon class="fsdfsf" type="integral" size="24" color="#80848f" />
+  </view>
+  <view class="fsfrgrw">
+    <i-icon wx:if="{{!shoucang}}" class="fsdfsf" type="collection" size="24" color="#80848f" bind:tap="touchsc" />
+    <i-icon wx:if="{{shoucang}}" class="fsdfsf"type="collection_fill" size="24" color="#fa452d" bind:tap="touchsc"/>
+  </view>
+  <view class="fsfrgrw">
+    <i-icon class="fsdfsf" type="share" size="24" color="#80848f" />
+  </view>
+  <!-- 作者前言 -->
+  <view class="dsfjoo">
+    <i-collapse name="{{name}}">
+      <i-collapse-item i-class="saadqwwq" i-class-title="dsfsde" title="{{videoinfo.jeshaotit}}" name="name1">
+        <view slot="content">
+          {{videoinfo.jieshaocontent}}
+        </view>
+      </i-collapse-item>
+    </i-collapse>
+  </view>
+  <!-- 评论信息 -->
+  <i-panel title="评论(1005)">
+    <view style="padding: 15px; ">
+      <view class="jioowew" wx:for="{{plxub}}">
+        <view class="jiowewwx">
+          <!-- 用户头像 -->
+          <i-avatar class="jowiew" src="{{item.touimg}}"></i-avatar>
+          <!-- 用户姓名 -->
+          <text class="doooow">{{item.name}}</text>
+          <!-- 发布时间 -->
+          <text class="jowsdf">2019-9-12</text>
+        </view>
+        <!-- 发布内容 -->
+        <view class="oowesd">{{item.content}}</view>
+      </view>
+
+    </view>
+    <!-- 评论模块 -->
+    <view class="jiwoewe">
+      <i-input class="joowew" value="{{ pinglun }}" title="评论:" bind:change="pinglunlll" autofocus placeholder="发个评论吧！" maxlength="1000" />
+      <i-button class="sdfwe" i-class="jdioow" bind:click="pingluning" inline="true">发送</i-button>
+    </view>
+  </i-panel>
+</view>

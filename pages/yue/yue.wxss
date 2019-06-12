@@ -1,0 +1,39 @@
+/* pages/yue/yue.wxss */
+.jiowe{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.weizhi{
+    width: 34px;
+    height: 34px;
+    border: 1px solid gainsboro;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    background: ghostwhite;
+    text-align: center;
+    border-radius: 3px;
+}
+.img{
+    width: 60%;
+    height: 60%;
+    margin: 20%;
+
+    line-height: 34px;
+}
+.jioisdwe{
+    width: 40px !important;
+    height: 40px !important;
+    background: ghostwhite !important;
+    z-index: 555 !important;
+}
+.fjoidsfw{
+    vertical-align: top !important;
+    line-height: 40px !important;
+}
+.dingwei{
+    background: gainsboro;
+}

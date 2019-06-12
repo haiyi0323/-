@@ -1,0 +1,9 @@
+/* pages/admin/index/index.wxss */
+.jioidsf{
+    width: 100%;
+    height: 400rpx;
+    background: blue;
+    box-sizing: border-box;
+    padding: 10px;
+
+}

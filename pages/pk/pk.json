@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+
+    "i-avatar": "../../dist/avatar/index",
+    "i-button": "../../dist/button/index",
+    "i-radio-group": "../../dist/radio-group/index",
+    "i-radio": "../../dist/radio/index",
+    "i-modal": "../../dist/modal/index",
+    "i-icon": "../../dist/icon/index",
+    "i-rate": "../../dist/rate/index"
+  }
+}

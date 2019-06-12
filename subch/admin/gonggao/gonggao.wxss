@@ -1,0 +1,6 @@
+/* pages/admin/gonggao/gonggao.wxss */
+.jijwe{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

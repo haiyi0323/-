@@ -1,0 +1,24 @@
+/* pages/admin/zhoubian/zhobian.wxss */
+/* pages/admin/chuzhao/chuzhao.wxss */
+.jiwew{
+    font-size: 22px;
+    font-weight: bold;
+}
+.sfsasa{
+    text-align: center;
+}
+.ijoiwe{
+    width: 200px !important;
+    height: 200px !important;
+    line-height: 200px !important;
+    margin: 20px auto !important;
+    font-size: 30px !important;
+}
+.jiojiwe{
+    height: 68px !important;
+}
+.jijiwe{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

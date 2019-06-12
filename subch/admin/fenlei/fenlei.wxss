@@ -1,0 +1,6 @@
+/* pages/admin/fenlei/fenlei.wxss */
+.jijiwe{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

@@ -1,0 +1,84 @@
+<i-grid>
+    <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/gonggao.png" />
+        </i-grid-icon>
+        <i-grid-label>公告</i-grid-label>
+    </i-grid-item>
+     <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/zhoubian.png" />
+        </i-grid-icon>
+        <i-grid-label>周边</i-grid-label>
+    </i-grid-item>
+     
+     <i-grid-item bind:tap="chuzhao">
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/huaban.png" />
+        </i-grid-icon>
+        <i-grid-label>出招表</i-grid-label>
+    </i-grid-item>
+    <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/kefu.png" />
+        </i-grid-icon>
+        <i-grid-label>客服</i-grid-label>
+    </i-grid-item>
+</i-grid>
+<i-grid>
+<i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/huabanfuben.png" />
+        </i-grid-icon>
+        <i-grid-label>合作</i-grid-label>
+    </i-grid-item>
+     <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/liyi.png" />
+        </i-grid-icon>
+        <i-grid-label>礼仪</i-grid-label>
+    </i-grid-item>
+    
+
+    <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/renzheng.png" />
+        </i-grid-icon>
+        <i-grid-label>认证</i-grid-label>
+    </i-grid-item>
+    
+   <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/drxx24.png" />
+        </i-grid-icon>
+        <i-grid-label>课代表</i-grid-label>
+    </i-grid-item>
+</i-grid>
+<i-grid>
+
+     <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/wechat.png" />
+        </i-grid-icon>
+        <i-grid-label>找海伊</i-grid-label>
+    </i-grid-item>
+    <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/seting.png" />
+        </i-grid-icon>
+        <i-grid-label>设置</i-grid-label>
+    </i-grid-item>
+      <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/gengx.png" />
+        </i-grid-icon>
+        <i-grid-label>更新</i-grid-label>
+    </i-grid-item>
+    <i-grid-item>
+        <i-grid-icon>
+            <image src="../../../assit/icon_1oepqml61wp/guanyuwomen.png" />
+        </i-grid-icon>
+        <i-grid-label>关于</i-grid-label>
+    </i-grid-item>
+   
+</i-grid>
